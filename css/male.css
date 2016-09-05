@@ -1,0 +1,652 @@
+div {
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+
+.pleasebuy {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background-color: #FFF7AB;
+    text-align: center;
+}
+
+.pleasebuy a {
+    display: inline-block;
+    color: #4FB1F7;
+}
+
+.containerbox {
+    width: 100%;
+    /*height: 420px;*/
+    position: relative;
+    background: url("../imgs/female/health-center-bg.jpg") no-repeat;
+}
+
+.containerbox .femalepic {
+    width: 130px;
+    height: 284px;
+    position: absolute;
+    left: 50%;
+    margin: 30px 0 0 -80px;
+    background: url("../imgs/female/woman.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.row .rowLeft {
+    margin: 100px 160px 0 0;
+    text-align: right;
+}
+
+.row .rowLeft .firsttitle {
+    margin-bottom: 25px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.row .rowLeft .secondtitle {
+    margin: 0 0 25px;
+    font-size: 24px;
+    color: #c9e68a;
+}
+
+.row .rowLeft .thirdtitle, .forthtitle {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.row .rowLeft .fivthttitle {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.row .rowRight {
+    float: right;
+    margin: 60px 100px 0;
+    text-align: right;
+}
+
+.row .rowRight span {
+    display: inline-block;
+    margin: 12px 0 12px 20px;
+    padding: 10px 25px;
+    font-size: 22px;
+    color: #fff;
+    border: 1px solid #5e6f87;
+    border-radius: 2px;
+}
+
+.row .rowRight span a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .containerbox .femalepic {
+        margin-left: 0px;
+    }
+
+    .row .rowLeft {
+        margin: 40px 10px 0;
+    }
+
+    .row .rowLeft .firsttitle {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .row .rowLeft .secondtitle {
+        font-size: 16px;
+        margin-bottom: -5px;
+    }
+
+    .row .rowLeft .thirdtitle, .forthtitle {
+        font-size: 14px;
+        margin-bottom: -10px;
+    }
+
+    .row .rowLeft .fivthttitle {
+        font-size: 12px;
+    }
+
+    .row .rowRight {
+        margin: 30px 0 0;
+    }
+
+    .row .rowRight span {
+        margin: 0 0 10px 10px;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerbox .femalepic {
+        margin-left: -150px;
+    }
+
+    .row .rowLeft {
+        margin: 40px 10px 0;
+    }
+
+    .row .rowLeft .firsttitle {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .row .rowLeft .secondtitle {
+        font-size: 16px;
+        margin-bottom: -5px;
+    }
+
+    .row .rowLeft .thirdtitle, .forthtitle {
+        font-size: 14px;
+        margin-bottom: -10px;
+    }
+
+    .row .rowLeft .fivthttitle {
+        font-size: 12px;
+    }
+
+    .row .rowRight {
+        margin: 30px 0 0;
+    }
+
+    .row .rowRight span {
+        margin: 0 0 10px 10px;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+}
+
+/*WeGene特色报告部分*/
+.mainbox {
+    width: 100%;
+    /*height: 1000px;*/
+    padding: 30px 90px;
+    background-color: #F2F4F5;
+    /*background-color: pink;*/
+    /*overflow: hidden;*/
+}
+
+/*WeGene特色报告大标题部分*/
+.mainbox .reporttitle{
+     height: 60px;
+    background-color: #F2F4F5;
+    /*background-color: red;*/
+     /*margin-top: 30px;*/
+     /*line-height: 60px;*/
+ }
+.mainbox .reporttitle h3 {
+
+    font-size: 24px;
+    color: #495669;
+    margin-top: 18px;
+    margin-left: 15px;
+    /*display: block;*/
+}
+
+/*WeGene特色报告主体部分*/
+.mainbox .row2 {
+    /*width: 1170px;*/
+    margin: 0 auto;
+    /*background-color: green;*/
+}
+
+
+.mainbox .row2 .rowpublic {
+    margin-bottom: 30px;
+    background-color: #fff;
+    /*background-color: red;*/
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+
+
+    position: relative;
+    border: 1px solid #ebebeb;
+}
+.mainbox .row2 .rowpublic .rowtitle{
+    height: 80px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ebebeb;
+    /*background-color: blue;*/
+}
+.mainbox .row2 .rowpublic .rowtitle h2{
+    line-height: 20px;
+    font-size:18px;
+    text-align: left;
+
+}
+.mainbox .row2 .rowpublic .rowtitle span{
+font-size:12px;
+    color:#999;
+}
+
+
+
+.mainbox .row2 .rowpublic .rowmiddle{
+    height: 300px;
+    /*height: 364px;*/
+    /*margin: 0 -15px;*/
+    /*background-color: yellow;*/
+    /*height: 100px;*/
+}
+.mainbox .row2 .rowpublic .rowmiddle .rowmiddlepic{
+    width: 162px;
+    height: 197px;
+    margin: 30px;
+    background: url("../imgs/female/parentage_research.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+
+.mainbox .row2 .rowpublic .rowfooter{
+    height: 60px;
+    /*line-height: 60px;*/
+    padding: 15px 20px;
+    background: #fafafa;
+    /*border: none;*/
+}
+.mainbox .row2 .rowpublic .rowfooter a{
+    /*width: 56px;*/
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    float: right;
+    display: block;
+    background-color: #4fb1f7;
+    padding: 0px 5px;
+}
+
+
+.mainbox .row2 .rowpart3 ul li{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #f5f5f5;
+    /*background-color: red;*/
+}
+.mainbox .row2 .rowpart3 ul li a{
+    display: block;
+    float: left;
+    color: #4fb1f7;
+}
+.mainbox .row2 .rowpart3 ul li .ability{
+    float: right;
+    margin: 10px 0 0;
+}
+.mainbox .row2 .rowpart3 ul li .ability span{
+    float: left;
+    display: block;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+    background: #f5f5f5;
+    color: #999999;
+    text-align: center;
+}
+.mainbox .row2 .rowpart3 ul li .ability span.high{
+    background: #c9e68a;
+    color: #fff;
+}
+.mainbox .row2 .rowpart3 ul li .ability span.normal{
+    background: #ffb553;
+    color: #fff;
+}
+
+
+.mainbox .row2 .rowpart4 .rowmiddle{
+    padding-top: 20px;
+ }
+.mainbox .row2 .rowpart4 .rowmiddle .rowmiddlepic02{
+    width: 160px;
+    height: 110px;
+    /*margin-left: 10px;*/
+    float: left;
+    background: url("../imgs/female/5e0edc3b1f5ee3c4a05abe3cf9fd3fb5.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.mainbox .row2 .rowpart4 .rowmiddle .rowmiddlepic03{
+
+}
+.mainbox .row2 .rowpart4 .rowmiddle .rowmiddlepic03 span{
+    display: block;
+    margin-top: 13px;
+}
+.mainbox .row2 .rowpart4 .danger01{
+    width: 313px;
+    height: 24px;
+    background-color: #E6E6E6;
+}
+.mainbox .row2 .rowpart4 .danger02{
+    /*width: 168px;*/
+    width: 54%;
+    height: 24px;
+    background-color: #FA7676;
+}
+.mainbox .row2 .rowpart4 .danger04{
+    /*width: 162px;*/
+    width: 52%;
+    height: 24px;
+    background-color: #B3B3B3;
+}
+
+
+.mainbox .row2 .rowpart4 .rowmiddle .rowintroduce{
+    /*display: block;*/
+    height: 66px;
+    line-height: 17px;
+    width: 100%;
+    overflow: hidden;
+    /*background-color: pink;*/
+    font-size: 12px;
+    padding: 15px;
+    /*margin-top: 15px;*/
+}
+
+
+@media (max-width: 992px) {
+    .mainbox{
+        padding: 0 20px;
+    }
+    .mainbox .row2 .rowpart4 .rowmiddle .rowmiddlepic02{
+        margin-left: 80px;
+    }
+    .mainbox .row2 .rowpart4 .danger01{
+        width: 280px;
+    }
+    .mainbox .row2 .rowpart1 .rowmiddle{
+        height: auto;
+        padding: 15px;
+    }
+    .mainbox .row2 .rowpart2 .rowmiddle{
+        height: auto;
+        padding: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .mainbox{
+        padding: 1px 10px;     /*此处padding设为0 10px，会有空白*/
+    }
+    .mainbox .row2 .rowpart4 .rowmiddle .rowmiddlepic02{
+        margin-left: 50px;
+    }
+    .mainbox .row2 .rowpart4 .danger01{
+        width: 230px;
+    }
+}
+
+
+
+/*WeGene特色报告部分*/
+.convention{
+    width: 100%;
+    /*height: 1000px;*/
+    padding: 30px 90px;
+    background-color: #E3EAED;
+}
+
+.convention .conventiontitle{
+    height: 80px;
+    /*background-color: #F2F4F5;*/
+}
+
+.convention .conventiontitle h3{
+    font-size: 24px;
+    color: #495669;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+/*WeGene特色报告主体部分*/
+.convention .row3 {
+    /*width: 1170px;*/
+    margin: 0 auto;
+    /*background-color: green;*/
+}
+
+
+.convention .row3 .row3public {
+    /*width: 260px;*/
+    height: 360px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    /*background-color: red;*/
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+
+
+    position: relative;
+    border: 1px solid #ebebeb;
+}
+.convention .row3 .row3public .row3title{
+    height: 80px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ebebeb;
+    /*background-color: blue;*/
+}
+.convention .row3 .row3public .row3title h2{
+    line-height: 20px;
+    font-size:18px;
+    text-align: left;
+
+}
+.convention .row3 .row3public .row3title span{
+    font-size:12px;
+    color:#999;
+}
+
+
+
+.convention .row3 .row3public .row3middle{
+    height: 220px;
+}
+.convention .row3 .row3part2 .row3middle{
+    padding: 47px 20px;
+}
+.convention .row3 .row3public .row3footer{
+    height: 60px;
+    padding: 15px 20px;
+    background: #fafafa;
+}
+.convention .row3 .row3public .row3footer a{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    float: right;
+    display: block;
+    background-color: #4fb1f7;
+    padding: 0px 5px;
+}
+
+
+
+.convention .row3 .row3part1 .row3hezi{
+    padding: 64px 30px;
+}
+.convention .row3 .row3part1 .row3middlepic01,.row3middlepic02{
+    width: 85px;
+    height: 85px;
+    margin: 0 5px;
+    /*margin: 0 auto 13px;*/
+    padding: 27px 0;
+    border: 4px solid #c9e68a;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #c9e68a;
+    float: left;
+    text-align: center;
+}
+.convention .row3 .row3part1 .row3middlepic02{
+    color: #fa7676;
+    border-color: #fa7676;
+}
+
+
+
+
+
+
+.convention .row3 .row3part2 .goodnormal{
+    width: 125px;
+    height: 125px;
+    /*padding: 64px auto;*/
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    border: 4px solid #c9e68a;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #c9e68a;
+}
+.convention .row3 .row3part3 ul li{
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    border-top: 1px solid #ebebeb;
+}
+.convention .row3 .row3part3 ul li:first-child{
+    border-top: none;
+}
+.convention .row3 .row3part3 .response01,.response02{
+    display: inline-block;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#4fb1f7;
+    font-size: 14px;
+    /*font-family: 黑体;*/
+}
+.convention .row3 .row3part3 .response01{
+    float: left;
+}
+.convention .row3 .row3part3 .response02{
+    float: right;
+    max-width: 100px;
+    white-space: nowrap;
+}
+.convention .row3 .row3part3 .colorred{
+    color:#f74b61;
+}
+.convention .row3 .row3part3 .colorblue{
+    color: #0076cc;
+}
+.convention .row3 .row3part3 .colorblack{
+    color: #666;
+}
+
+
+
+@media(max-width: 992px){
+    .convention{
+        padding: 10px;
+    }
+    .convention .row3 .row3part1 .row3middlepic01{
+        /*margin-left: 180px;*/
+    }
+    .convention .row3 .row3part1 .row3hezi{
+        /*padding: 64px 36px;*/
+    }
+}
+
+@media(max-width: 768px){
+    .convention{
+        padding: 10px;
+    }
+    .convention .row3 .row3part1 .row3middlepic01{
+        /*margin-left: 15px;*/
+    }
+    .convention .row3 .row3part1 .row3hezi{
+        /*padding: 64px 36px;*/
+    }
+}
+
+
+
+
+
+
+.convention .row4 .row4public{
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.convention .row4 .row4part1 .row4titlepub{
+
+}
+.convention .row4 .row4part1 .row4title01{
+    height: 176px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    background: url("../imgs/female/article-img7.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.convention .row4 .row4part2 .row4title02{
+    height: 176px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    background: url("../imgs/female/article-img8.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.convention .row4 .row4part3 .row4title03{
+     height: 176px;
+     border: none;
+     border-radius: 4px 4px 0 0;
+     background: url("../imgs/female/article-img9.png") no-repeat;
+     -webkit-background-size: 100%;
+     background-size: 100%;
+ }
+.convention .row4 .row4part4 .row4title04{
+    height: 176px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    background: url("../imgs/female/monkey.jpg") no-repeat;
+    -webkit-background-size: 100%;
+    /*background-size: 100%;*/
+}
+
+.convention .row4 .row4middle .row4hezi{
+    padding: 10px;
+}
+
+.convention .row4 .row4middle a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.convention .row4 .row4middle p{
+    font-size: 13px;
+    padding: 20px 8px;
+}
+.convention .row4 .row4middle p a{
+    color:#4fb1f7;
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+
+
+
+.rowtitle::before{
+    content: "\e689";
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+
+

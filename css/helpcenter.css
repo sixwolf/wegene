@@ -1,0 +1,135 @@
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+
+.helpmainbox {
+    padding: 0 100px;
+    /*background-color: pink;*/
+    width: 100%;
+    /*height: 1000px;*/
+}
+
+.helpmainbox .helptitle {
+    /*padding: 30px 0 20px 20px;*/
+    /*background-color: green;*/
+    margin: 0;
+    line-height: 70px;
+    font-size: 24px;
+    color: #505e73;
+}
+
+.helpmainbox .interlinkbox {
+    width: 100%;
+    height: 620px;
+    margin-bottom: 20px;
+    /*border: 1px solid #999;*/
+    background-color: #fff;
+}
+
+.helpmainbox .interlinkbox .interlinkdl {
+    padding: 40px 0;
+border: 1px solid #999;
+}
+
+.helpmainbox .interlinkbox dl {
+    padding: 0 30px;
+    float: left;
+    width: 33.333%;
+    height: 520px;
+    border-left: 1px solid #e6e6e6;
+    /*background-color: red;*/
+}
+.helpmainbox .interlinkbox dl:first-child{
+    border-left: none;
+}
+.helpmainbox .interlinkbox dl dt{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.helpmainbox .interlinkbox dl dd{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.helpmainbox .interlinkbox dl dd a{
+    color: #4fb1f7;
+    text-decoration: none;
+}
+
+
+
+
+.interlinkbox2{
+    width: 100%;
+    /*height: 620px;*/
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.interlinkbox2 .interlinkul{
+    /*padding: 30px 28px;*/
+    padding: 0 28px;
+    /*padding-bottom: 30px;*/
+
+}
+.interlinkbox2 .interlinkul:last-child ul{
+    border-bottom: none;
+}
+.interlinkbox2 h2{
+    /*background-color: green;*/
+    margin: 0;
+    line-height: 70px;
+    font-size: 24px;
+    color: #505e73;
+}
+.interlinkbox2 .interlinkul ul{
+    /*border-bottom: 1px solid red;*/
+    /*padding: 30px 0;*/
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999;
+}
+.interlinkbox2 .interlinkul li p.ptitle{
+    margin: 40px 0 20px;
+    font-size: 16px;
+    color: #4fb1f7;
+}
+.interlinkbox2 .interlinkul li p{
+    line-height: 28px;
+}
+
+@media(max-width: 992px){
+    .helpmainbox{
+        padding: 0 10px;
+    }
+    .helpmainbox .helptitle{
+        text-align: center;
+    }
+    .helpmainbox .interlinkbox{
+        height: auto;
+    }
+    .helpmainbox .interlinkbox .interlinkdl{
+        height: auto;
+        padding: 0;
+        /*margin-bottom: 40px;*/
+    }
+    .helpmainbox .interlinkbox dl{
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        border-bottom: 1px solid #999;
+
+    }
+    .helpmainbox .interlinkbox dl:last-child{
+        border-bottom:none;
+    }
+
+    .helpmainbox  .interlinkbox2{
+        /*margin-top: 300px;*/
+    }
+    .helpmainbox  .interlinkbox2 .interlinkul:last-child ul{
+        border-bottom: none;
+    }
+}
+

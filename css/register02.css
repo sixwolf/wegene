@@ -1,0 +1,118 @@
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+
+#login {
+    width: 423px;
+    height: 464px;
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*bottom: 120px;*/
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+
+#login .box .logform .logo a {
+    display: block;
+    width: 97px;
+    height: 88px;
+    background: url(../imgs/register/login_logo.png) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-left: 35%;
+}
+
+#login .box {
+    background: #F9F9F9;
+    border: 1px solid #F1F1F1;
+    border-radius: 3px;
+}
+
+#login .box .logform {
+    width: 350px;
+    /*float: right;*/
+    padding: 10px 25px 10px 20px;
+
+    margin: 0 auto;
+}
+
+#login .box .logform h2 {
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #606060;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#login .box .logform table {
+    width: 320px;
+    margin: 10px auto;
+}
+
+#login .box .logform table td {
+    height: 65px;
+    font-size: 14px;
+}
+
+#login .box .logform table td input {
+    width: 318px;
+    height: 18px;
+    font-size: 16px;
+    color: #9A9A9A;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 11px 0 11px 10px;
+}
+
+#login .box .logform table td input.sub {
+    width: 115px;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 2px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    /*/!*float: right;*!/此处用float也可以，不过有点丑*/
+    margin-left: 40px;
+    background-color: #91C900;
+    /*background: url(../images/icon_3.png) 0 -90px no-repeat;*/
+}
+
+#login .box .logform table td input.chk {
+    width: 10px;
+    height: 10px;
+    vertical-align: bottom;
+}
+
+#login .box .logform table td .qqlog {
+    width: 140px;
+    height: 40px;
+    display: block;
+    /*background: url(../images/head.png) -303px -122px no-repeat;*/
+}
+
+#login .box .logform table td .sinalog {
+    width: 172px;
+    height: 40px;
+    display: block;
+    float: right;
+    /*background: url(../images/head.png) -463px -122px no-repeat;*/
+}
+
+#login .box .logform .reg {
+    text-align: right;
+}
+
+#login .box .logform .reg a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #4FB1F7;
+}
+

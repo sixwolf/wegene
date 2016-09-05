@@ -1,0 +1,96 @@
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    line-height: 160%;
+    color: #666;
+}
+
+
+
+
+
+
+
+.aboutusmainbox {
+    /*width: 100%;*/
+    background-color: #f2f4f5;
+    height: 1600px;
+    /*background-color: pink;*/
+    display: block;
+    padding-top: 25px;
+}
+.aboutusmainbox .mainmiddlebox{
+    /*width: 1170px;*/
+    /*height: 100px;*/
+    /*padding: 20px;*/
+    margin: 0 auto;
+    background-color: transparent;
+    /*background-color: green;*/
+}
+.aboutusmainbox .mainmiddlebox .mod{
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+.aboutusmainbox .mainmiddlebox .mod-about{
+    margin: 0 auto 50px;
+    border-top: 1px solid #e6e6e6;
+}
+.aboutusmainbox .mainmiddlebox .mod-about:first-child{
+    margin-top: 30px;
+}
+.aboutusmainbox .mainmiddlebox .mod-about .mod-body{
+    padding: 40px 0;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body{
+    background-color: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body .text-center{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body .text-center img{
+    width: 100px;
+    padding: 16px 0;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body .text-center span{
+    font-size: 22px;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body p{
+    margin: 0 0 10px;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body p span{
+    color: #00a7f7;
+}
+
+.aboutusmainbox .mainmiddlebox .mod .mod-body ul{
+    padding: 0 20px;
+}
+.aboutusmainbox .mainmiddlebox .mod .mod-body li:first-child{
+    color:#00a7f7;
+}
+
+
+
+@media(max-width: 992px){
+    .aboutusmainbox {
+        height: 1800px;
+    }
+    .mod .mod-body {
+        padding: 15px !important;
+    }
+}
+@media(max-width: 768px){
+    .aboutusmainbox {
+        height: 1910px;
+    }
+    .mod .mod-body {
+        padding: 15px !important;
+    }
+}
+

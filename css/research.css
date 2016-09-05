@@ -1,0 +1,121 @@
+.researchmainbox{
+    /*width: 100%;*/
+    /*height: 3000px;*/
+    padding: 50px 0;
+    /*background-color: pink;*/
+    background-color: #535362;
+}
+.researchmainbox .searchtitle{
+    text-align: center;
+}
+.researchmainbox .searchtitle img{
+    width: 60px;
+}
+.researchmainbox .searchtitle h2{
+    margin: 10px 0 0;
+    font-size: 26px;
+    color: #363f4d;
+}
+.researchmainbox .searchtitle p{
+    /*margin: 60px 0 20px;*/
+}
+.firstpicture{
+    width: 500px;
+    margin: 20px auto 150px;
+    border-radius: 4px;
+    /*border: 1px solid #e6e6e6;*/
+}
+.firstpicture:last-child{
+    margin: 20px auto 60px;
+}
+
+.firstpicture .picone{
+    position: relative;
+    background-color: #fff;
+    /*margin-top: 100px;*/
+}
+.firstpicture .picone img {
+    width: 100%;
+}
+.firstpicture .sleepcount{
+
+    padding: 0 20px;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #000;
+    opacity: 0.3;
+
+
+}
+.firstpicture h3{
+    opacity: 1;
+    font-size: 26px;
+    color: #4fb1f7;
+    line-height: 60px;
+
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+
+.firstpicture .textone{
+    position: relative;
+}
+.firstpicture .textone .textoneleft{
+    float: left;
+    height: 100px;
+    padding: 20px 110px 20px 20px;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #363f4d;
+}
+.firstpicture .textone .textoneleft h4{
+    font-size: 16px;
+}
+.firstpicture .textone .textoneleft p{
+    opacity: 0.5;
+    padding: 5px 0;
+}
+.firstpicture .textone .textoneright{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-size: 100%;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+
+@media(max-width: 992px){
+    .researchmainbox .firstpicture .picone img {
+        width: 100%;
+    }
+    .firstpicture .textone{
+        height: auto;
+    }
+}
+@media(max-width: 768px){
+    .researchmainbox .firstpicture{
+        width: 100%;
+        /*max-width: 500px;*/
+        margin: 20px auto 150px;
+    }
+    .firstpicture img {
+        width: 100%;!important;
+    }
+    .firstpicture .textone{
+        height: auto;
+    }
+}
+/*@media(max-width: 500px) {*/
+    /*.researchmainbox .firstpicture {*/
+        /*width: 100%;*/
+        /*max-width: 500px;*/
+    /*}*/
+/*}*/

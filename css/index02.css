@@ -1,0 +1,521 @@
+
+
+/*主体盒子*/
+.mainbox {
+    width: 100%;
+    height: 2663px;
+    /*background-color: pink;*/
+}
+
+
+/*广告部分*/
+.banner {
+    /*width: 100%;*/
+    height: 540px;
+    background: url("../imgs/homepageImgs/bannerImgs/banner_bg.jpg");
+    display: flex;
+}
+
+/*广告banner左侧轮播图部分*/
+.banner #bannerLeft {
+    /*width: 100%;*/
+    /*width: 50%;*/
+    height: 540px;
+    float: left;
+    flex: 1;
+    background-color: pink;
+}
+
+.banner #bannerLeft #evolution {
+    width: 454px;
+    height: 432px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 120px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.banner #bannerLeft #evolution #evolutionpic {
+    width: 454px;
+    height: 3024px;
+    background: url("../imgs/homepageImgs/bannerImgs/ancestry-monkey.png.png");
+    position: absolute;
+    left: 50px;
+    /*top: -70px;*/
+    /*background-color: green;*/
+}
+
+/*猿人脚下圆圈图部分*/
+.banner #bannerLeft .watch {
+    width: 458px;
+    /*width: 100%;*/
+    height: 240px;
+    margin-top: 300px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.banner #bannerLeft .watch .circleone, .circletwo, .circlethree {
+    width: 458px;
+    /*width: 100%;*/
+    height: 140px;
+    position: absolute;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.banner #bannerLeft .watch #circle1, #circle2, #circle3 {
+    width: 458px;
+    height: 3504px;
+    position: absolute;
+}
+
+.banner #bannerLeft .watch #circle1 {
+    background: url("../imgs/homepageImgs/bannerImgs/ancestry-square.png") 0px 0px;
+}
+
+.banner #bannerLeft .watch #circle2 {
+    background: url("../imgs/homepageImgs/bannerImgs/ancestry-square.png") -512px 0px;
+}
+
+.banner #bannerLeft .watch #circle3 {
+    background: url("../imgs/homepageImgs/bannerImgs/ancestry-square.png") -1015px 0px;
+}
+
+
+/*猿人图部分*/
+
+/*广告banner右侧部分*/
+.banner #bannerRight {
+    /*width: 100%;*/
+    /*width: 50%;*/
+    height: 540px;
+    float: left;
+    flex: 1;
+    /*background-color: lightblue;*/
+    background-color: red;
+}
+
+/*广告右侧图片部分*/
+.banner #bannerRight .bannerRightPic {
+    width: 490px;
+    height: 160px;
+    background: url("../imgs/homepageImgs/bannerImgs/slogan2.png") no-repeat;
+    -webkit-background-size: 100%;
+    margin-left: 80px;
+    margin-top: 110px;
+}
+
+/*广告右侧文字部分*/
+.banner #bannerRight .bannerRightText {
+    width: 490px;
+    height: 18px;
+    margin: 26px 0 26px 86px;
+    /*margin-left: 110px;*/
+    text-align: center;
+}
+
+.banner #bannerRight .bannerRightText span {
+    font-size: 18px;
+}
+
+.banner #bannerRight .bannerRightText span:first-child {
+    color: #4fb1f7;
+}
+
+.banner #bannerRight .bannerRightText span {
+    color: #666666;
+}
+
+/*广告右侧价格部分*/
+.banner #bannerRight .bannerRightPrice {
+    width: 478px;
+    height: 58px;
+    border: 1px solid #4fb1f7;
+    margin-left: 90px;
+    margin-top: 56px;
+    position: relative;
+}
+
+.banner #bannerRight .bannerRightPrice .nineRmb {
+    width: 158px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    float: left;
+    font-size: 28px;
+    color: #FFF;
+}
+
+.banner #bannerRight .bannerRightPrice .nineRmb2 {
+    width: 318px;
+    height: 56px;
+    line-height: 58px;
+    float: left;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    background-color: #4fb1f7;
+    /*/!*background: url(../imgs/homepageImgs/bannerImgs/buycar.png) no-repeat;*!/  此处缺一个购物车图*/
+}
+
+@media(max-width: 992px){
+    .banner #bannerLeft #evolution{
+        /*width: 454px;*/
+        /*height: 432px;*/
+        /*position: absolute;*/
+        /*margin-top: 0px;*/
+        /*margin-left: 120px;*/
+        /*overflow: hidden;*/
+        /*z-index: 3;*/
+    }
+}
+
+
+
+
+
+
+/*检测结果部分*/
+.result {
+    width: 100%;
+    height: 502px;
+    background-color: #F2F4F5;
+}
+
+/*检测结果左侧文字部分*/
+.result .resultLeft {
+    width: 40%;
+    height: 502px;
+    float: left;
+    /*background-color: lightseagreen;*/
+}
+
+.result .resultLeft .retext1, .retext2, .retext3 {
+    padding-left: 104px;
+    float: left;
+
+}
+
+.result .resultLeft .retext1 {
+    height: 80px;
+    margin-top: 90px;
+    font-size: 80px;
+    color: #6fbef7;
+    text-shadow: 8px 3px 2px #2693FF;
+}
+
+.result .resultLeft .retext2 {
+    height: 38px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #505e73;
+    margin-top: 15px;
+    text-shadow: 5px 2px 3px #868695;
+}
+
+.result .resultLeft .retext3 {
+    margin: 25px 0 30px;
+    line-height: 26px;
+    color: #808080;
+    font-size: 14px;
+}
+
+.result .resultLeft .example a {
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-left: 104px;
+    /*overflow: hidden;*/
+    background-color: #4fb1f7;
+}
+
+/*检测结果右侧图片部分*/
+.result .resultRight {
+    width: 60%;
+    height: 502px;
+    float: left;
+    margin-bottom: 0;
+    /*background-color: lightgrey;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.result .resultRight #resultRightPic {
+    width: 620px;
+    height: 300px;
+    background: url("../imgs/homepageImgs/result/feature.png") no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+}
+
+/*简易检测流程部分*/
+.detection {
+    width: 100%;
+    height: 500px;
+}
+
+.detection .detectionLeft {
+    width: 75%;
+    height: 100%;
+    float: left;
+    position: relative;
+    /*background-color: red;*/
+}
+
+.detection .detectionLeft #detectionLeftPic {
+    width: 962px;
+    height: 500px;
+    background: url("../imgs/homepageImgs/detection/testing-process.png");
+    position: absolute;
+    left: -962px;
+}
+
+.detection .detectionRight {
+    width: 25%;
+    height: 100%;
+    float: left;
+
+    /*background-color: yellowgreen;*/
+}
+
+.detection .detectionRight .text {
+    float: left;
+    margin-right: 104px;
+}
+
+.detection .detectionRight .text span {
+    width: 100%;
+    display: block;
+}
+
+.detection .detectionRight .text span:first-child {
+    height: 58px;
+    margin-top: 96px;
+    /*margin-left: 10px;*/
+    font-size: 58px;
+    line-height: 58px;
+    color: #8ddcde;
+    text-shadow: 5px 1px 2px #2693FF;
+    /*background-color: red;*/
+}
+
+.detection .detectionRight .text span:nth-child(2) {
+    height: 38px;
+    margin-top: 22px;
+    /*padding-left: 10px;*/
+    font-size: 38px;
+    line-height: 38px;
+    color: #505e73;
+    text-shadow: 6px 3px 2px #868695;
+    /*background-color: green;*/
+    /*overflow: hidden;*/
+}
+
+.detection .detectionRight .text span:nth-child(3) {
+    height: 14px;
+    margin-top: 30px;
+    /*padding-left: 10px;*/
+    font-size: 14px;
+    line-height: 14px;
+    color: #9F808F;
+    /*background-color: green;*/
+    /*overflow: hidden;*/
+}
+
+.detection .text4 {
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    color: #505e73;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-left: 136px;
+    margin-top: 32px;
+    overflow: hidden;
+    background-color: #4fb1f7;
+    /*background-color: red;*/
+}
+
+/*合作伙伴部分*/
+.friends {
+    width: 100%;
+    height: 350px;
+    background-color: #F2F4F5;
+}
+
+/*合作伙伴顶部*/
+.friends .friendsTop {
+    width: 100%;
+    height: 180px;
+    /*background-color: pink;*/
+    color: #505e73;
+    font-size: 30px;
+    line-height: 180px;
+    /*text-align: center;*/
+    position: relative;
+}
+
+.friendsTop #friendsone, #friendstwo, #friendsthree, #friendsfour, #friendsfive {
+    float: left;
+    position: absolute;
+    top: 0;
+    /*display: none;*/
+}
+.friendsTop #friendsone{
+    left: -30px;
+}
+.friendsTop #friendstwo{
+    left: -30px;
+}
+.friendsTop #friendsthree{
+    left: -30px;
+}
+.friendsTop #friendsfour{
+    left: -30px;
+}
+.friendsTop #friendsfive{
+    left: 615px;
+    display: none;
+}
+
+/*合作伙伴底部*/
+.friends .friendsBottom {
+    width: 100%;
+    height: 170px;
+    /*background-color: red;*/
+    /*float: left;*/
+}
+
+.friends .friendsBottom a {
+    height: 110px;
+    width: 360px;
+    float: left;
+    display: block;
+    margin-left: 30px;
+    /*background-color: red;*/
+}
+
+.friends .friendsBottom .friBottLeft {
+    margin-left: 105px;
+    background: url('../imgs/homepageImgs/result/illumina.jpg') center center no-repeat;
+    background-color: #FFF;
+    border: 1px solid rgba(0,0,0,0);
+    transition: all 1s;
+}
+.friends .friendsBottom .friBottLeft:hover{
+    transform: rotate(360deg);
+    border: 1px solid #0273AD;
+}
+
+.friends .friendsBottom .friBottMiddle {
+    background: url('../imgs/homepageImgs/result/affy.jpg') center center no-repeat;
+    background-color: #FFF;
+    opacity: 0.3;
+}
+.friends .friendsBottom .friBottMiddle:hover{
+    opacity: 1;
+}
+
+.friends .friendsBottom .friBottRight {
+    background: url('../imgs/homepageImgs/result/genotek.jpg') center center no-repeat;
+    background-color: #FFF;
+    transition: all 3s;
+}
+.friends .friendsBottom .friBottRight:hover{
+    transform: rotateY(30deg);
+}
+
+/*检测服务部分*/
+.service {
+    width: 100%;
+    height: 330px;
+    background-color: #fff;
+}
+
+.service .serviceLeft {
+    width: 360px;
+    height: 100%;
+    float: left;
+    margin-left: 105px;
+    background: url('../imgs/homepageImgs/service/product.jpg') center center no-repeat;
+    -webkit-background-size: 80%;
+    /*background-color: red;*/
+}
+
+.service .serviceMiddle {
+    width: 360px;
+    height: 100%;
+    margin-left: 30px;
+    float: left;
+}
+
+.service .serviceMiddle .nine {
+    font-size: 34px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 140px;
+}
+
+.service .serviceMiddle .buyService {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    width: 280px;
+    background-color: #6FBEF7;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.service .serviceRight {
+    margin-left: 30px;
+    width: 360px;
+    height: 100%;
+    float: left;
+}
+
+.service .serviceRight .serviceRight1 {
+    height: 190px;
+    width: 100%;
+    margin-top: 52px;
+    border-left: 2px solid #F2F4F5;
+}
+
+.service .serviceRight .serviceRight1 .serviceRight1-1 {
+    font-size: 26px;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 85px;
+}
+
+.service .serviceRight .serviceRight1 .serviceRight1-2, .serviceRight1-3 {
+    font-size: 18px;
+
+    width: 275px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 85px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.service .serviceRight .serviceRight1 .serviceRight1-2 {
+    background-color: #91C900;
+    margin-top: 12px;
+}
+
+.service .serviceRight .serviceRight1 .serviceRight1-3 {
+    background-color: #F25584;
+    margin-top: 26px;
+}
+

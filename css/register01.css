@@ -1,0 +1,107 @@
+#register {
+    width: 500px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+#register .logo a {
+    display: block;
+    width: 97px;
+    height: 88px;
+    background: url(../imgs/register/login_logo.png) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+#register .box {
+    width: 500px;
+    height: 650px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    padding: 30px 20px;
+}
+
+#register .box h2 {
+    width: 135px;
+    padding-left: 5px;
+    color: #606060;
+    letter-spacing: 2px;
+    border-bottom: 5px solid #75C50A;
+}
+
+#register .box .regform {
+    width: 500px;
+    height: 500px;
+    /*margin: 0 auto;*/
+}
+
+#register .box .regform table {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#register .box .regform table td {
+    height: 60px;
+    font-size: 16px;
+    color: #606060;
+    /*margin-left: 10px;*/
+}
+
+#register .box .regform table td input {
+    width: 330px;
+    height: 18px;
+    font-size: 16px;
+    color: #9A9A9A;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 8px 0 8px 7px;
+}
+
+#register .box .regform table td #sendto{
+    width: 200px;
+}
+#register .box .regform table td img{
+    margin-left: 20px;
+    margin-bottom: -8px;
+}
+#register .box .regform table td input.chk {
+    width: 12px;
+    height: 12px;
+    float: left;
+    /*text-align: left;*/
+    /*vertical-align: bottom;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#register .box .regform table td input.sub {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 2px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #91C900;
+}
+.nowlog {
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.nowlog a{
+    text-decoration: none;
+}
